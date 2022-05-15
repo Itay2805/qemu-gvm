@@ -17,6 +17,7 @@
 #include "sysemu/hvf.h"
 #include "sysemu/whpx.h"
 #include "sysemu/nvmm.h"
+#include "sysemu/gvm.h"
 
 void cpu_synchronize_state(CPUState *cpu);
 void cpu_synchronize_post_reset(CPUState *cpu);
